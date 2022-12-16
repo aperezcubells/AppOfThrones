@@ -104,6 +104,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		245549BA294C967800F4A43B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A61928B32936B60F00174D66 /* EpisodeTableViewCell.swift */,
+				A61928B52936B67B00174D66 /* EpisodeTableViewCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		245549BB294C968800F4A43B /* Rate */ = {
+			isa = PBXGroup;
+			children = (
+				A65F8E9229217E4200817900 /* RateViewController.xib */,
+				A65F8E9029217E1500817900 /* RateViewController.swift */,
+			);
+			name = Rate;
+			sourceTree = "<group>";
+		};
 		A6048F8B2926DECC00947B41 /* MModelo */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,12 +217,10 @@
 		A6B253E52922DFC300985657 /* eepisodes */ = {
 			isa = PBXGroup;
 			children = (
-				A65F8E9229217E4200817900 /* RateViewController.xib */,
-				A65F8E9029217E1500817900 /* RateViewController.swift */,
+				245549BB294C968800F4A43B /* Rate */,
+				245549BA294C967800F4A43B /* Cell */,
 				A6048F872926C19300947B41 /* EpisodeViewController.swift */,
 				A6048F892926C1AA00947B41 /* EpisodeViewController.xib */,
-				A61928B32936B60F00174D66 /* EpisodeTableViewCell.swift */,
-				A61928B52936B67B00174D66 /* EpisodeTableViewCell.xib */,
 			);
 			name = eepisodes;
 			sourceTree = "<group>";

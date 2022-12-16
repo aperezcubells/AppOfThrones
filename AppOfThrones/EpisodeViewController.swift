@@ -81,8 +81,8 @@ class EpisodeViewController: UIViewController,UITableViewDelegate,UITableViewDat
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         if let cell = tableView.dequeueReusableCell(withIdentifier: "EpisodeTableViewCell", for: indexPath) as? EpisodeTableViewCell {
-            //let ep = episodes[indexPath.row]
-            //cell.setEpisode(ep)
+            let ep = episodes[indexPath.row]
+            cell.setEpisode(ep)
             return cell
         }
        fatalError("Could not creat the episode cell")
